@@ -69,7 +69,7 @@ nav ul li a:hover::after{
     margin-top: 7%;
 }
 .header-text h1{
-    font-size: 60px;
+    font-size: 55px;
     margin-top: 20px;
 }
 .header-text h1 span{
@@ -322,8 +322,6 @@ nav .fas{
 }
 /* Css for small screens */
 @media only screen and (max-width: 600px) {
-    #header{
-    }
     .header-text{
         display: flex;
         flex-direction: column;
