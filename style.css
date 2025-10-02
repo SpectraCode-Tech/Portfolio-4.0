@@ -138,6 +138,7 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+    height: 150px;
 }
 /* Services Section */
 #services{
