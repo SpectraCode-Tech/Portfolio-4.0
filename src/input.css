@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.active-link::after{
+    width: 50%;
+}
+
+.active-tab{
+    display: block;
+    height: 150px;
+}
+
+nav .fas{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        font-size: 30px;
+    }
+    #logo-wrap img{
+        display: none;
+}
+    .header-text h1{
+        font-size: 25px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
