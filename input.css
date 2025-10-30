@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.active-link::after{
+    width: 50%;
+}
+
+.active-tab{
+    display: block;
+    height: 150px;
+}
+
+nav .fas{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+}
