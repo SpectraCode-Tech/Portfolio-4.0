@@ -38,6 +38,7 @@
     </script>
 </head>
 <body class="bg-[#080808] text-[#E5E5E5]">
+    <div id="preloader" class="bg-black fixed w-screen h-screen z-100 top-0 left-0 flex justify-center items-center"><h1 class="text-white text-3xl text-center md:text-5xl font-semibold loadicon">Rasaq <span class="text-[#ff0000]">Oladimeji</span></h1></div>
     <div id="header" class="h-screen w-full">
         <div class="py-2.5 px-[10%]">
             <nav class="flex items-center justify-between flex-wrap">
@@ -236,6 +237,15 @@
         function closemenu(){
             sidemenu.style.right = "-200px";
         }
+    </script>
+
+    <script>
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('preloader');
+            document.body.classList.add('scroll')
+            preloader.style.display = 'none'
+        })
+
     </script>
 </body>
 </html>
