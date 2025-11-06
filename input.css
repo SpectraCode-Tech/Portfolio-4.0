@@ -52,7 +52,7 @@ body{
     overflow: hidden;
 } 
 body.scroll{
-    overflow: scroll;
+    overflow-y: scroll;
 }
 @keyframes fade{
     0%,100%{
